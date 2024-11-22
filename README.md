@@ -20,6 +20,7 @@ Promise.all(archivos.map(procesarArchivo))
 
 **salida**
 
+```
 Producción:
 
 Procesando archivo: archivo1.txt
@@ -29,3 +30,4 @@ Archivo procesado: archivo1.txt
 Archivo procesado: archivo2.txt
 Archivo procesado: archivo3.txt
 Todos los archivos han sido procesados.
+```
