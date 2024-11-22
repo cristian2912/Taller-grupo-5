@@ -20,4 +20,12 @@ Promise.all(archivos.map(procesarArchivo))
 
 **salida**
 
-![image](https://github.com/user-attachments/assets/d249377b-9ecb-4465-bb88-ede0dbd4d21b)
+Producción:
+
+Procesando archivo: archivo1.txt
+Procesando archivo: archivo2.txt
+Procesando archivo: archivo3.txt
+Archivo procesado: archivo1.txt
+Archivo procesado: archivo2.txt
+Archivo procesado: archivo3.txt
+Todos los archivos han sido procesados.
