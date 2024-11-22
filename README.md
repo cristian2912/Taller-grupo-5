@@ -1,5 +1,6 @@
 # codigo
 
+```
 function procesarArchivo(nombre) {
   return new Promise((resolve) => {
     console.log(`Procesando archivo: ${nombre}`);
@@ -15,6 +16,7 @@ const archivos = ["archivo1.txt", "archivo2.txt", "archivo3.txt"];
 Promise.all(archivos.map(procesarArchivo))
   .then(() => console.log("Todos los archivos han sido procesados."));
 
+```
 
 **salida**
 
